@@ -8,7 +8,7 @@ $dbname = "oemdesw10qk8_trackMe";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-    $data = $$_POST['data'];
+    $data = $_POST['data'];
     printf($data."\n");
 
     $sql = "INSERT INTO data(id,data,date,time) VALUES(NULL,'$data',curdate(),curtime())";
