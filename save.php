@@ -20,6 +20,6 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
  
     $json = json_encode($arr);
 
-    echo($arr);
+    echo($json);
 
 ?>
