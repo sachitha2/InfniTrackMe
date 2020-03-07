@@ -8,7 +8,7 @@
 	<body>
 		<center>
 		<h1>data</h1>
-		<form method="GET" action="save.php">
+		<form method="POST" action="save.php">
 			<input type="text" name="data">
 		</form>
 		</center>
