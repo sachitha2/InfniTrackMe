@@ -27,9 +27,9 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "track_me";
+$username = "oemdesw10qk8_trackMe";
+$password = "trackMe";
+$dbname = "oemdesw10qk8_trackMe";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
