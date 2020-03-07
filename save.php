@@ -15,6 +15,11 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
     
     mysqli_query($conn, $sql);
     
-    echo("{done:'ok'}");
+    $arr['data'] = "done"; 
+    $arr['chata'] = "By infini";
+ 
+    $json = json_encode($arr);
+
+    echo($arr);
 
 ?>
